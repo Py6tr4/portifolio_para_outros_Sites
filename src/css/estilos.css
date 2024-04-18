@@ -10,13 +10,15 @@ html {
 	display: block;
 	margin-top: 16px;
 	color: #8a35c8;
+	color:  150deg,;
   }
 
 body {
 	font-family: "Poppins", sans-serif;
 	margin: 0 auto;
-	max-width: 1120px;
-	background: linear-gradient(150deg, #000000, #9e00ff);
+	max-width: 112000px;
+	max-height: 112000px;
+	background: linear-gradient( #000000, #9e00ff);
 }
 
 .cabecalho {
@@ -228,24 +230,15 @@ body {
 .section__container .contact__section{
 	background: fixed;
 	border-radius: 33px;
-background: #65207e;
-box-shadow:  -21px -21px 42px #391247,
-             21px 21px 42px #912eb5;
-}
-.lista_de_contatos{
-	background: #65207e;
-	box-shadow:  -21px -21px 42px #391247,
-				 21px 21px 42px #912eb5;
-				 border-radius: 20px;
-				 border-bottom: solid 40pxs;
 
 }
-.skill__icon {
-	width: 69px;
-	filter: grayscale(100%);
-	transition: filter 200ms ease-in-out;
-  }
-  
+.lista_de_contatos{
+	background: black;
+	
+				 border-radius: 20px;
+				 border-bottom: 40pxs;
+
+} 
   .skill__icon:hover {
 	filter: grayscale(0);
   }
@@ -281,9 +274,11 @@ box-shadow:  -21px -21px 42px #391247,
 	filter: grayscale(0);
   }
   .skill_dick{
-	background: #65207e;
-	box-shadow:  -21px -21px 42px #391247,
-				 21px 21px 42px #912eb5;
-				 border-radius: 20px;
-				 border-top: 45px;
+	
+				
+				 position: absolute;
+                left: 30%;
+				margin-top: 150px;
+				margin-bottom: 20px;
+
   }
